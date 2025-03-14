@@ -1,18 +1,15 @@
 import "./App.css";
-import Title from "./Title.jsx";
-import "./sides.jsx";
+import Panel from "./componet/sides.jsx";
+import Title from "./componet/Title.jsx";
 
 function App() {
- return (
-
-  <div>
-    <Title />
-    <button>This is my first App</button>
-    <products />
-    
-  </div>
-
- );
+    return (
+        <div>
+            <Title />
+            <button>This is my first App</button>
+            <Panel />
+        </div>
+    );
 }
 
-export default App
+export default App;

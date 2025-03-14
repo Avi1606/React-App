@@ -1,10 +1,10 @@
 
-function products(){
+function Panel(){
       return(
       <div>
-            <p>Title</p>;
-            <h>discription</h>;
+            <p>Title</p>
+            <h>discription</h>
       </div>
       );
 }
-export default products;
+export default Panel;
