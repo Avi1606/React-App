@@ -1,15 +1,17 @@
 import "./App.css";
-import Panel from "./componet/sides.jsx";
+import Products from "./componet/Products/Products.jsx";
 import Title from "./componet/Title.jsx";
 
-function App() {
+function ProductTab() {
     return (
         <div>
-            <Title />
+            <Title/>
             <button>This is my first App</button>
-            <Panel />
+            <Products title={"Phone"} price={"30k"}/>
+            <Products title={"Phone"} price={"30k"}/>
+            <Products title={"Phone"} price={"30000"}/>
         </div>
     );
 }
 
-export default App;
+export default ProductTab;
